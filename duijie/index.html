@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aso任务对接测试</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <form style="margin: 0.2cm 4cm 0cm 4cm;" class="form-inline">
+        json：<textarea id="condition" name="condition" rows="15" cols="100" style="vertical-align: top;"></textarea><button type="button" class="btn btn-default" onclick="copy(this);" style="vertical-align: bottom;">复制</button><span id="copy_text" style="color: red;display: none;vertical-align: bottom;">已复制</span><br ><br >
+        idfa：<input type="text" id="idfa" name="idfa" class="form-control" value="94269EE5-947D-49DD-A39E-8864794FA587" aria-describedby="basic-addon1" style="width: 350px;"><button type="button" class="btn btn-default" onclick="copy(this);">复制</button><span id="copy_text" style="color: red;display: none;">已复制</span><br ><br >
+        ip：<input type="text" name="ip" class="form-control" value="121.40.79.23" aria-describedby="basic-addon1"><br ><br >
+        关键词：<input type="text" name="keyword" class="form-control" value="理财" aria-describedby="basic-addon1"><br ><br >
+        打印所有接口：<label class="radio-inline">
+  <input type="radio" name="flag" id="inlineradio1" value="0" checked> 否
+</label>
+<label class="radio-inline">
+  <input type="radio" name="flag" id="inlineradio2" value="1"> 是
+</label><br ><br >
+        <input type="button" value="提交" class="btn btn-primary" onclick="apply();">
+    </form>
+    <div class="panel panel-default">
+        <div class="panel-body" id="return_msg"></div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function(){
+        $.get('get_json.php', function(data) {
+            $('#condition').val(JSON.stringify(data));
+        });
+    });
+    function apply() {
+        $.post('indexb.php', $("form").serialize(), function(data) {
+            $('#return_msg').html(data);
+        });
+    }
+    function copy(o) {
+        o.previousSibling.select(); // 选择对象
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        o.nextSibling.style.display = "";
+    }
+</script>

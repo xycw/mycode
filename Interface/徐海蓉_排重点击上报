@@ -1,0 +1,120 @@
+{
+	"newest": 1,
+	"channel": "Join_GeneralModel",
+	"model": 0,
+	"qc": {
+		"url": "https://adsapi.24k.hk/App_Ads_Mis/ads/idfaRepeat.do",
+		"type": "G"
+	},
+	"qc_params": {
+		"need_appid": {
+			"name": "appid",
+			"type": "1",
+			"value": "1259141329"
+		},
+		"need_idfa": {
+			"name": "idfa",
+			"type": "2"
+		},
+		"need_pipeId": {
+			"name": "pipeId",
+			"type": "1",
+			"value": "1"
+		},
+		"need_sign": {
+			"name": "key",
+			"type": "3",
+			"value": "{need_appid}{need_idfa}{need_pipeId}",
+			"key": "06639931e8e5f56c3572956f014882ba",
+			"func": "Join_BaseApiModel::md5Sign",
+			"pos": 2
+		}
+	},
+	"qc_ret": {
+		"format": "json",
+		"field": "{need_idfa}",
+		"succ": "1",
+		"fail": "0"
+	},
+	"click": {
+		"url": "https://adsapi.24k.hk/App_Ads_Mis/ads/build.do",
+		"type": "G"
+	},
+	"click_params": {
+		"need_appid": {
+			"name": "appid",
+			"type": "1",
+			"value": "1259141329"
+		},
+		"need_cb": {
+			"name": "callback",
+			"type": "1",
+			"value": "http://www.xiaoyuzhuanqian.com/"
+		},
+		"need_idfa": {
+			"name": "idfa",
+			"type": "2"
+		},
+		"need_ip": {
+			"name": "ip",
+			"type": "2"
+		},
+		"need_pipeId": {
+			"name": "pipeId",
+			"type": "1",
+			"value": "1"
+		},
+		"need_time": {
+			"name": "timestamp",
+			"type": "2"
+		},
+		"need_sign": {
+			"name": "key",
+			"type": "3",
+			"value": "{need_appid}{need_cb}{need_idfa}{need_ip}{need_pipeId}{need_time}",
+			"key": "06639931e8e5f56c3572956f014882ba",
+			"func": "Join_BaseApiModel::md5Sign",
+			"pos": 2
+		}
+	},
+	"click_ret": {
+		"format": "json",
+		"field": "code",
+		"succ": "0",
+		"fail": "1"
+	},
+	"active": {
+		"url": "https://adsapi.24k.hk/App_Ads_Mis/ads/taskDone.do",
+		"type": "G"
+	},
+	"active_params": {
+		"need_appid": {
+			"name": "appid",
+			"type": "1",
+			"value": "1259141329"
+		},
+		"need_idfa": {
+			"name": "idfa",
+			"type": "2"
+		},
+		"need_pipeId": {
+			"name": "pipeId",
+			"type": "1",
+			"value": "1"
+		},
+		"need_sign": {
+			"name": "key",
+			"type": "3",
+			"value": "{need_appid}{need_idfa}{need_pipeId}",
+			"key": "06639931e8e5f56c3572956f014882ba",
+			"func": "Join_BaseApiModel::md5Sign",
+			"pos": 2
+		}
+	},
+	"active_ret": {
+		"format": "json",
+		"field": "code",
+		"succ": "0",
+		"fail": "1"
+	}
+}
