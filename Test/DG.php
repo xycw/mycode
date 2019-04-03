@@ -23,12 +23,6 @@ function fbnq($f){
     }
     return fbnq($f-1) + fbnq($f-2);
 }
-//echo fbnq(6);
-
-    /*$str = urlencode("测试");
-    echo $str.'</br>';
-    $str1 = urldecode("%E6%B5%8B%E8%AF%95");
-    echo $str1;*/
 echo uniqid().'<br>';
 echo uniqid('test').'<br>';
 echo uniqid(microtime()).'<br>';

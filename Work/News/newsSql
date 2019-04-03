@@ -1,0 +1,11 @@
+create database newsdb;
+'字段：新闻id，标题、关键字、作者、发布时间、新闻内容'
+		CREATE TABLE `news` (
+		  `id` int(10) unsigned NOT NULL auto_increment,
+		  `title` varchar(64) NOT NULL,
+		  `keywords` varchar(64) NOT NULL,
+		  `author` varchar(16) NOT NULL,
+		  `addtime` int(10) unsigned NOT NULL,
+		  `content` text NOT NULL,
+		  PRIMARY KEY  (`id`)
+		);
