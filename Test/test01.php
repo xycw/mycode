@@ -1,24 +1,7 @@
 <?php
 //定义类
-class Response{
-//静态方法
-//$code 状态码
-//$message 提示信息
-//$data数据
-//return string
-    public static function json($code,$message="",$data=array()){
-        if(!is_numeric($code)){
-            return "";
-        }
-
-        $result=array(
-            'code'=>$code,
-            'message'=>$message,
-            'data'=>$data
-        );
-
-        echo json_encode($result);
-    }
+$array = array('name','age','id');
+for($index=0; $index<3; $index++){
+    echo '<br>数组第'.$index.'值是：'.$array[$index];
 }
-
 ?>

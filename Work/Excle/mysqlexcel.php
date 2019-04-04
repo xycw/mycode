@@ -7,11 +7,9 @@
  * 设置数据库账号密码调用
  */
 
-require ("mysqldb.php");
 
 class mysqlexcel
 {
-
 
     public $conn = null;
     public $host;
@@ -24,7 +22,12 @@ class mysqlexcel
         $this->username = 'root';
         $this->password = '123456';
         $this->dbname = 'mytable';
-        $this->conn = mysqli_connect($this->host,$this->username,$this->password,$this->dbname) or die(mysqli_error());
+        //$this->conn = mysqli_connect($config['host'],$config['username'],$config['password'],$config['database']);
+        $this->conn = mysqli_connect($this->host,$this->username,$this->password,$this->dbname);
+        if(mysqli_connect_error()){
+            echo '链接失败:'.mysqli_connect_error();
+            exit();
+        }
     }
     public function getResult($sql){
         $resouce = mysqli_query($this->conn,$sql) or die(mysqli_error());
