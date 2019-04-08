@@ -12,6 +12,4 @@ elseif (!$uname||!$upass){
 
 
 
-
-
 ?>
