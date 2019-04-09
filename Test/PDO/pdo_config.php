@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: niaogebiji
- * Date: 2019/4/8
- * Time: 下午3:25
+ * Date: 2019/4/9
+ * Time: 下午18:08
  */
  function startpdo(){
     header('content-type:text/html;charset=utf8');
