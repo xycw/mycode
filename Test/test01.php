@@ -15,14 +15,14 @@ $result = $object->query($sql);
 while($arr=$result->fetch()){
     //print_r($arr);
 }*/
-$idfa ='b1c2af4adf94103d73da2245856bd606';
-$playerid =1039130;
-$channel =63;
+$key ='25668c2e7aefe70e197df9d8311fb1bb';
+$playerid =1385333;
+$channel ='wlddz413';
 $data = array(
-    'channel' => 63,
-    'uid' => 1039130,
-    'sign' => md5($playerid.$channel.$idfa),
+    'channel' => 'wlddz413',
+    'uid' => 1385333,
+    'sign' => md5($playerid.$channel.$key),
 );
-$url = 'https://api-hpmj.734399.com/Cpl/wingold'. '?' . http_build_query($data);
+$url = 'http://api-wlddz.91cb.com/NewCpl/wingold'. '?' . http_build_query($data);
 echo $url;
 ?>

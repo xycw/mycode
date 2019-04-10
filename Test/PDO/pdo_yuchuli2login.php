@@ -9,7 +9,7 @@ require "pdo_config.php";
 try{
     $id = $_GET['id'];
     $name = $_GET['name'];
-    $pdo = startpdo();
+    $pdo = startpdo();//开启PDO
     $sql = "select * from test01 where id=? and name=?";
     $stm = $pdo->prepare($sql);//预处理
     $stm->execute(array($id,$name));

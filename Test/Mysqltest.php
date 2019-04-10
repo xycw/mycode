@@ -17,10 +17,15 @@ $conn = mysqli_connect('127.0.0.1','root','123456','mytable');
         }*/
 $sql = "select * from testcpl";
 $res = mysqli_query($conn,$sql);
-$ress = mysqli_fetch_all($res);//取出所有
+/*$ress = mysqli_fetch_all($res);//取出所有
 foreach ($ress as $k){
     print_r($k);
-}
+}*/
+$data = $res->fetch_assoc();
+var_export($data);
+echo '<hr>';
+var_dump($data);
+$res->close();
 echo '</pre>';
 
 ?>
