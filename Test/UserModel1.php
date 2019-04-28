@@ -8,7 +8,7 @@
 class UserModel1{
     function __construct()
     {
-        parent::init();
+        echo 'bign';
     }
 
     public function test1(){
@@ -20,3 +20,11 @@ class UserModel1{
     }
 
 }
+class UserModel2 extends UserModel1{
+    public function test3()
+    {
+        echo 'UserModel2test3';
+    }
+}
+$user2 = new UserModel2();
+$user2->test2();

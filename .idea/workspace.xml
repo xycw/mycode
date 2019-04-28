@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0457a2de-eea8-4c61-904e-e18f9cc9cdcf" name="Default Changelist" comment="02">
-      <change afterPath="$PROJECT_DIR$/duijie 2/bat.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/Active.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/Apply.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/Arraybat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/BaseApi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/DuiJieList.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/General.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/get_json.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/duijie/indexb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Test/1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/UserModel1.php" beforeDir="false" afterPath="$PROJECT_DIR$/Test/UserModel1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duijie 2/Apply.php" beforeDir="false" afterPath="$PROJECT_DIR$/duijie2/Apply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duijie 2/BaseApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/duijie2/BaseApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duijie 2/DuiJieList.php" beforeDir="false" afterPath="$PROJECT_DIR$/duijie2/DuiJieList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duijie 2/General.php" beforeDir="false" afterPath="$PROJECT_DIR$/duijie2/General.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duijie 2/bat.php" beforeDir="false" afterPath="$PROJECT_DIR$/duijie2/bat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duijie 2/get_json.php" beforeDir="false" afterPath="$PROJECT_DIR$/duijie2/get_json.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duijie 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/duijie2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duijie 2/indexb.php" beforeDir="false" afterPath="$PROJECT_DIR$/duijie2/indexb.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +63,34 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1806235026">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="php" value="306" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="306" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="mycode" />
@@ -70,31 +98,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Mysqltest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interface/七麦_国泰_回调.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="486">
+              <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duijie 2/Apply.php">
+        <entry file="file://$PROJECT_DIR$/duijie2/Apply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="299">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duijie2/General.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duijie2/BaseApi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="68" column="56" lean-forward="true" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -104,45 +139,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duijie 2/bat.php">
+        <entry file="file://$PROJECT_DIR$/duijie2/get_json.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="702">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test/UserModel1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/duijie2/indexb.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/duijie 2/get_json.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duijie 2/indexb.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/duijie 2/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Interface/侯远-体育.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="19" column="28" lean-forward="true" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/1.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -159,6 +188,9 @@
       <find>mac</find>
       <find>extension_dir</find>
       <find>pdo</find>
+      <find>$condition</find>
+      <find>Join_GeneralModel</find>
+      <find>joint_seller</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,6 +221,9 @@
         <option value="$PROJECT_DIR$/duijie/get_json.php" />
         <option value="$PROJECT_DIR$/duijie 2/bat.php" />
         <option value="$PROJECT_DIR$/duijie 2/get_json.php" />
+        <option value="$PROJECT_DIR$/Test/UserModel1.php" />
+        <option value="$PROJECT_DIR$/duijie 2/General.php" />
+        <option value="$PROJECT_DIR$/Test/1.php" />
       </list>
     </option>
   </component>
@@ -215,38 +250,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="mycode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycode" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mycode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycode" type="462c0819:PsiDirectoryNode" />
-              <item name="duijie 2" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="duijie2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="mycode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycode" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="duijie2" type="462c0819:PsiDirectoryNode" />
+              <item name="General.php" type="88303cf5:PhpFileNode" />
             </path>
             <path>
-              <item name="mycode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycode" type="462c0819:PsiDirectoryNode" />
-              <item name="photo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mycode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mycode" type="462c0819:PsiDirectoryNode" />
+              <item name="mydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="PDO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,6 +325,7 @@
       <updated>1554262741813</updated>
       <workItem from="1554262743278" duration="72621000" />
       <workItem from="1554946987206" duration="2631000" />
+      <workItem from="1556438650025" duration="5265000" />
     </task>
     <task id="LOCAL-00001" summary="000">
       <created>1554262867949</created>
@@ -300,7 +338,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75252000" />
+    <option name="totallyTimeSpent" value="80517000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,10 +350,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-281" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="-281" y="-1057" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992272" visible="true" weight="0.11821086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992272" visible="true" weight="0.11927582" />
       <window_info id="Structure" order="1" sideWeight="0.5007728" side_tool="true" weight="0.24973376" />
       <window_info id="Favorites" order="2" sideWeight="0.5007728" side_tool="true" weight="0.24973376" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -350,13 +388,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="02" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Test/test2.php" />
-    <entry file="file://$PROJECT_DIR$/Test/test3.php" />
-    <entry file="file://$PROJECT_DIR$/Test/testArray.php" />
     <entry file="file://$PROJECT_DIR$/Test/testreplace.php" />
-    <entry file="file://$PROJECT_DIR$/Test/UserModel1.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/foreach.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -409,20 +441,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Work.php" />
-    <entry file="file://$PROJECT_DIR$/duijie/DuiJieList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="262" column="27" lean-forward="true" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie/General.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie/DuiJieList.php" />
+    <entry file="file://$PROJECT_DIR$/duijie/General.php" />
     <entry file="file://$PROJECT_DIR$/Test/0301.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -437,13 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="14" lean-forward="true" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/PDO/pdo_yuchuli1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -481,27 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/PDO/pdo_yuchuli2login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/PDO/pdo_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/老用户激活.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/test01.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -509,54 +501,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duijie/BaseApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="1" column="478" selection-start-line="1" selection-start-column="478" selection-end-line="1" selection-end-column="478" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie/Arraybat.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="1" column="744" lean-forward="true" selection-start-line="1" selection-start-column="744" selection-end-line="1" selection-end-column="744" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie/BaseApi.php" />
+    <entry file="file://$PROJECT_DIR$/duijie/Arraybat.php" />
     <entry file="file://$PROJECT_DIR$/Interface/享赚红包.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/duijie/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie/get_json.php">
+    <entry file="file://$PROJECT_DIR$/duijie/index.html" />
+    <entry file="file://$PROJECT_DIR$/duijie/get_json.php" />
+    <entry file="file://$PROJECT_DIR$/duijie/indexb.php" />
+    <entry file="file://$PROJECT_DIR$/duijie/Apply.php" />
+    <entry file="file://$PROJECT_DIR$/duijie/Active.php" />
+    <entry file="file:///usr/local/etc/php/7.2/php.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="1" column="351" lean-forward="true" selection-start-line="1" selection-start-column="351" selection-end-line="1" selection-end-column="351" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test/1.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie/indexb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie/Apply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="1" column="670" lean-forward="true" selection-start-line="1" selection-start-column="670" selection-end-line="1" selection-end-column="670" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie/Active.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="2" column="634" lean-forward="true" selection-start-line="2" selection-start-column="634" selection-end-line="2" selection-end-column="634" />
+        <state relative-caret-position="160">
+          <caret line="894" column="48" lean-forward="true" selection-start-line="894" selection-start-column="48" selection-end-line="894" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -567,13 +525,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duijie 2/Apply.php">
+    <entry file="file://$PROJECT_DIR$/duijie2/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/侯远-体育.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="342">
+          <caret line="19" column="28" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/老用户激活.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/PDO/pdo_yuchuli2login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie2/bat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie2/DuiJieList.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/PDO/pdo_yuchuli1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/PDO/pdo_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interface/七麦_国泰_回调.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" column="2" lean-forward="true" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/UserModel1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie2/get_json.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie2/indexb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie2/Apply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie2/General.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/duijie2/BaseApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="68" column="56" lean-forward="true" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -581,44 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/duijie 2/bat.php">
+    <entry file="file://$PROJECT_DIR$/Test/1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interface/侯远-体育.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="28" lean-forward="true" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie 2/indexb.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie 2/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Interface/七麦_国泰_回调.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/etc/php/7.2/php.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="894" column="48" lean-forward="true" selection-start-line="894" selection-start-column="48" selection-end-line="894" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duijie 2/get_json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
