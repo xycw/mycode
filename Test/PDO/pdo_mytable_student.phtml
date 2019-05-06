@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>11</title>
+</head>
+<body>
+<form>
+    <?php include 'pdo_config.php';
+    $sql = "select * from student";
+    foreach ($pdo->query($sql) as $k){
+        echo "$k{'name'}";
+    }
+    ?>
+</form>
+</body>
+</html>

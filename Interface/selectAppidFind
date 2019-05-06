@@ -1,87 +1,80 @@
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201903  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201901  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201811  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201809  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201807  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201805  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201803  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201801  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
+union  all
+select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201801  a,recom_app  b
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
 select  from_unixtime(a.updated_at),a.keyword,b.keyword,a.idfa,remote_ip  from  user_apply_history201711  a,recom_app  b
-where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=1446842563
-and  b.start_date  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+where  a.app_id=b.id  and  a.status=5  and  b.appstore_id=592031984
+and  b.start_date  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201903  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201903  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201811  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201811  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201809  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201809  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201807  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201807  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201805  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201805  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201803  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201803  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201801  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201801  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201711  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 union  all
-select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records  where  appstore_id=1446842563
-and  updated_at  between  unix_timestamp('2019-01-01  00:00:00')  and  unix_timestamp('2019-01-31  23:59:59')
+select  from_unixtime(updated_at),idfa,remote_ip  from  outside_records201711  where  appstore_id=592031984
+and  updated_at  between  unix_timestamp('2019-02-25  00:00:00')  and  unix_timestamp('2019-04-26  23:59:59')
 and  (type=0  or  (type=1  and  called=1))
 
-
-insert into testcpl values (3912,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,132941238,6,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (3913,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,131232948,5,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (3914,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,23132948,4,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (3915,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,13772948,3,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (3916,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,1329148,2,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (3917,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,132948,1,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (39181534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,132948,0,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (3919,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,132948,0,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (3920,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,132948,0,0,0,0,0,'xiaoyu',0,0);
-insert into testcpl values (3921,1534,1295901,'352097092789940',315090,'0',1,1,1,1545449844,1545449844,132948,0,0,0,0,0,'xiaoyu',0,0);
